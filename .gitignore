@@ -1,0 +1,11 @@
+/appsettings.Development.json
+/appsettings.json
+/bin
+/JobsWeb.csproj
+/JobsWeb.http
+/node_modules
+/obj
+/package-lock.json
+/package.json
+/Program.cs
+/Properties

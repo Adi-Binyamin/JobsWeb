@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>JobsWeb - Create New Job</title>
+    <link rel="stylesheet" href="newjob.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Create New Job</h1>
+    <div id="createArea">
+        <label>Job Title</label>
+        <input type="text" id="jobTitle">
+
+        <label>Company</label>
+        <input type="text" id="companyName">
+
+        <label>Location</label>
+        <input type="text" id="companyLocation">
+
+        <label>Description</label>
+        <input type="text" id="jobDescription">
+
+        <label>Minimum Match (%)</label>
+        <input type="number" id="percentMatch" min="0" max="100">
+
+        <label>Minimum Experience (Years)</label>
+        <input type="number" id="minimumExperience" min="0">
+
+        <div class="requirements-grid">
+
+            <div>
+                <input type="checkbox" value="JavaScript">
+                <label>JavaScript</label>
+            </div>
+
+            <div>
+                <input type="checkbox" value="Python">
+                <label>Python</label>
+            </div>
+
+            <div>
+                <input type="checkbox" value="Node.js">
+                <label>Node.js</label>
+            </div>
+
+            <div>
+                <input type="checkbox" value="MongoDB">
+                <label>MongoDB</label>
+            </div>
+
+            <div>
+                <input type="checkbox" value="React">
+                <label>React</label>
+            </div>
+
+            <div>
+                <input type="checkbox" value="Experience">
+                <label>Experience</label>
+            </div>
+
+            <div>
+                <input type="checkbox" value="English">
+                <label>English</label>
+            </div>
+
+        </div>
+
+        <button type="button" id="createJobButton">Create Job</button>
+
+    </div>
+
+    <script src="newjob.js"></script>
+
+</body>
+</html>
